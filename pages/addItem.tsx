@@ -4,7 +4,7 @@ import { useAddress, useContract } from "@thirdweb-dev/react";
 import { useRouter } from "next/router";
 type Props = {};
 
-function addItem({}: Props) {
+function AddItem({}: Props) {
     const router = useRouter()
     const [preview , setPreview ]= useState<String>();
     const [image , setImage ] = useState<File>();
@@ -100,4 +100,4 @@ function addItem({}: Props) {
   );
 }
 
-export default addItem;
+export default AddItem;
